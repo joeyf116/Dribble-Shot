@@ -1,0 +1,105 @@
+body {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    color: RGB(33,157,129);
+    font-size: 50px;
+    line-height: 1;
+}
+h2 {
+    color: black;
+    font-size: 15px;
+}
+p {
+    color: RGB(197,215,211);
+
+}
+.landing-top {
+    display: flex;
+    background-color: RGB(249,255,255);
+    height: 20rem;
+    width: 100%;
+    flex-direction: row;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0px 0px 0px;
+}
+
+.spiel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0px 0px 0px;
+    line-height: 1.5;
+}
+
+.product-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 15rem;
+    margin: 0px 0px 0px;
+}
+.product-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: RGB(221,242,237);
+    width: 50%;
+    margin: 0px 0px 0px;
+    padding-left: 0px;
+    align-items: center;
+}
+.product-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: RGB(195,230,224);
+    width: 50%;
+    margin: 0px 0px 0px;
+    padding-left: 0px;
+    align-items: center;
+
+}
+
+.product-bot .screen-shot  {
+    height: 148px;
+    width: 125px;
+}
+
+.product-2 button {
+    display: block;
+    border-radius: 25%;
+    background-color: RGB(33,157,129);
+    color: RGB(249,255,255);
+    font-size: 10px;
+    padding: 10px;
+    justify-content: flex-end;
+}
+
+.product-and-stars {
+    display: block;
+    padding-bottom: 7rem;
+}
+
+.price-and-cart {
+    display: block;
+    padding-bottom: 7rem;
+}
+
+footer {
+    background-color: RGB(33,157,129);
+    height: 5rem;
+    padding: 0;
+}
