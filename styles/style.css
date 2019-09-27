@@ -11,7 +11,7 @@ h1 {
 }
 h2 {
     color: black;
-    font-size: 15px;
+    font-size: 13px;
 }
 p {
     color: RGB(197,215,211);
@@ -78,14 +78,14 @@ p {
     width: 125px;
 }
 
-.product-2 button {
+.product-bot button {
     display: block;
-    border-radius: 25%;
+    border-radius: 25px;
     background-color: RGB(33,157,129);
     color: RGB(249,255,255);
     font-size: 10px;
     padding: 10px;
-    justify-content: flex-end;
+    margin-top: 7rem;
 }
 
 .product-and-stars {
@@ -93,9 +93,19 @@ p {
     padding-bottom: 7rem;
 }
 
-.price-and-cart {
+.product-2 .product-and-stars {
     display: block;
-    padding-bottom: 7rem;
+    padding-bottom: 0rem;
+}
+
+.color-shot {
+    padding-top: 3rem;
+}
+.price-and-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer {
